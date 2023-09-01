@@ -1,3 +1,7 @@
+import { Link } from "react-router-dom";
+import {AiFillHome as H} from "react-icons/ai"
+
+
 export default function Cabecalho() {
   return (
     <>
@@ -5,13 +9,19 @@ export default function Cabecalho() {
         <h1>Vite + React / Coded By - PF0670</h1>
         <ul>
           <li>
-            <a href="#">Item - 1</a>
+            <link to= "/">HOME - <H/> </link>
           </li>
           <li>
-            <a href="#">Item - 2</a>
+            <link to= "/produtos">PRODUTOS</link>
           </li>
           <li>
-            <a href="#">Item - 3</a>
+            <link to="/editar/produtos/1">PRODUTO - 1</link>
+          </li>
+          <li>
+            <link to="/editar/produtos/2">PRODUTO - 2</link>
+          </li>
+          <li>
+            <link to="/editar/produtos/3">PRODUTO - 3</link>
           </li>
         </ul>
       </header>
