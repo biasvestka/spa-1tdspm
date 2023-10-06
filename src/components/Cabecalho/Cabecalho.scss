@@ -1,0 +1,28 @@
+
+.cabecalho{
+    
+    background-color: #999;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    ul{
+        list-style: none;
+        
+        li a{
+
+            text-decoration: none;
+            color: #fff;
+
+            &:hover{
+                background-color: #444;
+            }
+            
+
+        }
+
+    }
+
+}
+
